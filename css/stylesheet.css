@@ -6,16 +6,19 @@ body{
     text-align: center ;
     margin-top: 20px;
     margin-bottom: 20px;
+    
 } 
 .row {
     margin-left: 10px ;
+    margin-right: 10px;
+    box-sizing: border-box;
     position: relative;
 }
 .row > div {
     border: 1px solid black;
     background:  gray;
     margin-left: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     float: left;
     position: relative;
 }
@@ -56,7 +59,7 @@ p{
 }
 @media (max-width: 767px) {
     .col-lg-3 {
-        width: 100% ;
+        width: 95% ;
     }
 
 }
